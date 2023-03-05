@@ -1,13 +1,13 @@
 //dependencies
-const Employee = require('../lib/Employee.js');
+const Employee = require('../lib/employee');
 
 //initialize testing
 
 describe("Employee", () =>{
-    describe("Initialiation", ( => {
+    describe("Initialiation", () => {
         // object should return an empty string
-        it("should initiate an obeject"), () => {
-            const obj = new Employee ();
+        it("should initiate an obeject", () => {
+            const obj = new Employee();
             //'result' should equal object
             expect(typeof(obj)).toEqual("object");
     });
@@ -23,8 +23,8 @@ describe("Name", () => {
 //create test for id object
 describe("Id", () => {
     it("should crete new id", () => {
-        const obj = new Employee ("Ronnie", 11);
-        expect (obj.id).toEqual(11)
+        const obj = new Employee("Ronnie", 11);
+        expect(obj.id).toEqual(11)
     });
 });
 
@@ -32,13 +32,15 @@ describe("Id", () => {
 describe("Email", () => {
     it("should create new email", () => {
         const obj = new Employee("Ronnie", 11, 'Ronnie11@gmail.com');
-        expect (obj.id).toEqual('Ronnie11@gmail.com')
+        expect(obj.id).toEqual('Ronnie11@gmail.com')
         });
     });
 
-//creat test for role object
+//create test for role object
 descibe("Role", () => {
     it("should create new role", () => {
-        const obj = new Employee ("Ronnie", 11, 'Ronnie11@gmail.com', 'Employee')
-    })
-})
+        const obj = new Employee ("Ronnie", 11, 'Ronnie11@gmail.com', Employee)
+        expect(obj.role).toEqual(Employee)
+    });
+});
+});
