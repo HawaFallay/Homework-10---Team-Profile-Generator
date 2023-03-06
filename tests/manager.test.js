@@ -36,7 +36,7 @@ describe("Manager", () => {
         it("should return manager's office number", () => {
             const manager = new Manager("Mary", "911", "Mary911@gmail.com", 19);
 
-            expect(manager.getOfficeNumber()).toEqual(12);
+            expect(manager.getOfficeNumber()).toEqual(19);
         });
 
         it("should return employee's role", () => {

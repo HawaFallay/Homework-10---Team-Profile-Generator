@@ -1,7 +1,7 @@
 const Engineer = require('../lib/engineer');
 
 describe("Engibneer", () => {
-    describe("engineer info", () => {
+    describe("Engineer info", () => {
         it("should return a string value", () => {
             const strName = "Michelle";
 
@@ -17,7 +17,7 @@ describe("Engibneer", () => {
         });
         
         it("should return a string value", () => {
-            const strEmail = "MichlleE22@gmail.com";
+            const strEmail = "MichlleE22@test.com";
 
             const engineer = new Engineer("Michelle", "E22", strEmail);
             expect(engineer.email).toBe(strEmail);
@@ -26,18 +26,18 @@ describe("Engibneer", () => {
         it("should return a string value", () => {
             const strGithub = "MichelleE22";
 
-            const engineer = new Engineer("Michelle", "E22", "MichelleE22@gmail", strGithub);
+            const engineer = new Engineer("Michelle", "E22", "MichelleE22@test.com", strGithub);
             expect(eengineer.github).toBe(strGithub);
         });
     });
     describe("intern class methods", () => {
         it("should return the engineer'd GitHub username", () => {
-            const engineer = new Engineer("Michelle", "E22", "MichelleE22@gmail.com","MichelleE22");
+            const engineer = new Engineer("Michelle", "E22", "MichelleE22@test.com","MichelleE22");
             expect(engineer.getGithub()).toBe("MichelleE22");
         });
 
         it("should return employee's role", () => {
-            const engineer = new Engineer("Michelle", "E22", "MichelleE22@gmail.com","MichelleE22");
+            const engineer = new Engineer("Michelle", "E22", "MichelleE22@test.com","MichelleE22");
             expect(engineer.getRole()).toBe("Engineer");
         });  
     });

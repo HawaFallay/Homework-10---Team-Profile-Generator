@@ -4,14 +4,15 @@ const Employee = require('../lib/employee');
 //initialize testing
 
 describe("Employee", () =>{
-    descibe("Employee info", () => {
+    descibe("Employee information", () => {
         it("should return a string value", () => {
             const strName = "Ronnie";
 
             const employee = new Employee(strName);
             expect(employee.name).toBe(strName);
         });
-         it("shouldshould return a string value", () => {
+         
+        it("shouldshould return a string value", () => {
             const strID = "11";
 
             const employee = new Employee("Ronnie", strId);

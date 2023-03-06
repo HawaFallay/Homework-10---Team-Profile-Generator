@@ -3,7 +3,7 @@ const Intern = require('../lib/intern');
 describe("Intern", () => {
     describe("Intern info", () => {
         it("should return a string value", () => {
-            const strName = "Paimon";
+            const strName = "Tim";
 
             const intern = new Intern(strName);
             expect(intern.name).toBe(strName);
@@ -37,7 +37,7 @@ describe("Intern", () => {
                 });
 
                 it("should return employee's role", () => {
-                    const intern = new Intern("Tim", "I143", "Tim@gmail.com", "UC Berkeley");
+                    const intern = new Intern("Tim", "I143", "Tim143@gmail.com", "UC Berkeley");
                     expect(intern.getRole()).toBe("Intern");
                 });
             });
