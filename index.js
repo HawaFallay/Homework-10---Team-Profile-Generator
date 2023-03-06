@@ -114,7 +114,7 @@ inquirer
         );
 
         fs.writeFile('./dist/index.html', fullHtmlPage, (err) =>
-            err ? console.log(err) : console.log('created index.html')
+            err ? console.log(err) : console.log('Open index.html in browser')
         );
         
     });
