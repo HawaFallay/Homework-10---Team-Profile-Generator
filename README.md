@@ -2,7 +2,7 @@
 # TITLE
 
 Object-Oriented Programming Challenge: Team Profile Generator
-#DESCRPIPTION
+# DESCRPIPTION
 The purpose of this project is "to build a Node.js command-line application that takes in information about 
 employees on a software engineering team and generates an HTML webpage that displays summariesfor each person."
 
