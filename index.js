@@ -1,3 +1,4 @@
+
 const generateHtml = require('./src/main-html-template');
 const generateCss = require('./src/css-generator');
 const inquirer = require('inquirer');
@@ -8,6 +9,7 @@ const Intern = require('./lib/intern');
 const managerInfo = require('./src/manager-html-template');
 const engineerInfo = require('./src/engineer-html-template');
 const internInfo = require('./src/intern-html-template');
+
 inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
 
 
