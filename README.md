@@ -13,27 +13,24 @@ employees on a software engineering team and generates an HTML webpage that disp
 - [QUESTIONS](#questions)
 
 # INSTALLATION
-To properly run this application, clone a copy of the repository from GitHub. 
-Next, install inquirer by typing "npm install inqurier@8.2.4". 
-In the terminal, navigate to the directory where the index.js file is located. 
-In the terminal, type "node server.js". 
-Copy the "localhost" url and paste it into the browser search bar. 
-The home page should appear in the browser. 
+To properly run this application, clone a copy of the repository from GitHub.
+Next, install inquirer by typing "npm install inqurier@8.2.4".
+Navigate to the directory where the index.js file is located an open an intergrated terminal. 
+In the terminal, type "node index.js".
+Copy the "localhost" url and paste it into the browser search bar.
+The home page will appear in the browser.
 
-# LINK
+# LINKs
 
-GitHub Repository: https://github.com/HawaFallay/Homework-11-miniature-eureka
+GitHub Repository: https://github.com/HawaFallay/Homework-10---Team-Profile-Generator
 
-Deployed Heroku App: https://homework-11-miniature-eureka.herokuapp.com/
-
+YouTube Video: https://homework-11-miniature-eureka.herokuapp.com/
 # SCREENSHOTS
-
-![Image of Home page.](./public/assets/images/Screen%20Shot%202023-03-06%20at%207.54.51%20PM.png)
-![Image of App with Styling.](./public/assets/images/Screen%20Shot%202023-03-06%20at%208.07.12%20PM.png)
-![Image of App with saved events.](./public/assets/images/Screen%20Shot%202023-03-06%20at%208.17.12%20PM.png)
-
+![Image of three employees profile cards](./images/Screen%20Shot%202023-03-09%20at%207.20.03%20AM.png)
+![Image of three employees profile cards](./images/Screen%20Shot%202023-03-09%20at%207.53.52%20AM.png)
 # QUESTIONS
-Link to my Github where contrubtions are welcome
+
+Link to my Github where contrubtions are welcome <3
 https://github.com/HawaFallay
 
 Contact:
