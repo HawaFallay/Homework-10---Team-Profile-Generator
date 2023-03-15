@@ -1,6 +1,6 @@
-// const Manager = require("../lib/manager");
-// const Engineer = require("../lib/engineer");
-// const Intern = require("./intern-html-template");
+ const Manager = require("./manager-html-manager");
+ const Engineer = require("./engineer-html-template");
+ const Intern = require("./intern-html-template");
 
 generateHtml = (managerBox, engineerBox, internBox) => {
     let htmlTemp = `<!DOCTYPE html>

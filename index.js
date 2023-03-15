@@ -82,7 +82,7 @@ inquirer
         let manager = new Manager(answers.name, answers.id, answers.email, answers.number);  
         let managerBox = managerInfo(manager);
         
-        // console.log(answers.employee[0].employeeType);
+// console.log(answers.employee[0].employeeType);
        
         const eRole = answers.employee;
         let engineerArry = [];

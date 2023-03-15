@@ -1,7 +1,7 @@
 engineerInfo = (engineer) => {
     let engineerBox = ``;
     for (let i = 0; i < engineer.length; i++) {
-        console.log(engineer[0]);
+        //console.log(engineer[0]);
         let engineerTemp = 
         `<div class="flex-item">
             <div class="titles">
