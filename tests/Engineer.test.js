@@ -1,6 +1,6 @@
 const Engineer = require('../lib/engineer');
 
-describe("Engibneer", () => {
+describe("Engineer", () => {
     describe("Engineer info", () => {
         it("should return a string value", () => {
             const strName = "Michelle";
