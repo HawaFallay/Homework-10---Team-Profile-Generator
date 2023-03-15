@@ -17,8 +17,8 @@ employees on a software engineering team and generates an HTML webpage that disp
 
 To properly run this application, clone a copy of the repository from GitHub.
 Next, install inquirer by typing "npm install inqurier@8.2.4".
-Navigate to the directory where the index.js file is located an open an intergrated terminal. 
-In the terminal, type "node index.js". Right click on index.js and launch a live broswer. Leave the browser open 
+Navigate to the directory where the index.js file is located an open an intergrated terminal.
+In the terminal, type "node index.js". Right click on "index.html" and launch a live broswer. Leave the browser open
 and you can watch profile cards generate in real time.
 
 # LINKS
