@@ -25,7 +25,8 @@ and you can watch profile cards generate in real time.
 
 GitHub Repository: https://github.com/HawaFallay/Homework-10---Team-Profile-Generator
 
-YouTube Video: https://youtu.be/lSafSVPEQvw
+YouTube Video: https://youtu.be/0V11Tyowm1M
+
 # SCREENSHOTS
 ![Image of three employees profile cards](./images/Screen%20Shot%202023-03-09%20at%207.20.03%20AM.png)
 ![Image of three employees profile cards](./images/Screen%20Shot%202023-03-09%20at%207.53.52%20AM.png)
